@@ -29,8 +29,9 @@ def get_townhall_urls
       	hachier[a.text] = array_mail
       	array[i] = hachier
       	i = i + 1
+      	puts hachier
     end
-    print array
+    return array
 end
 
-get_townhall_urls
+#print get_townhall_urls
