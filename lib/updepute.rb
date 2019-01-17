@@ -3,7 +3,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'xpath'
 
-def get_prenom_urls
+def get_prenom_urls2
 	i = 0
 	page = Nokogiri::HTML(open('https://www.nosdeputes.fr/deputes'))
 	array_prenom = []
